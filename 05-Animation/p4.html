@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ANIMATION</title>
+        <style>
+            .ball {
+                width: 100px;
+                height: 100px;
+                background-color: rebeccapurple;
+                border-radius: 50%;
+                animation-name: move-ball;
+                animation-duration: 4s;
+                animation-timing-function: linear;
+                animation-iteration-count: 5; 
+            }
+
+            @keyframes move-ball {
+                from{
+                    transform: translate(0,0);
+                }
+                to {
+                    transform: translate(0,400px);
+                    background-color: gold;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="ball"></div>
+    </body>
+</html>

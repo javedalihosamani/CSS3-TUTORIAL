@@ -6,7 +6,11 @@
         <title>ANIMATION</title>
         <style>
             section{
-                background-color: rgb(114, 79, 79);
+                background-image: url(https://cdn.pixabay.com/photo/2024/01/02/14/58/leaf-8483401_640.jpg);
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+                height: 500px;
                 color: #fff;
                 padding: 20px;
                 margin: 30px;
@@ -14,18 +18,21 @@
                 border-radius: 10px;
                 box-shadow: 3px 3px 3px #ccc;
                 font-size: 40px;
-                animation: rajath;
+                /* animation: rajath;
                 animation-duration: 10s;
                 animation-timing-function: ease-in-out;
-                animation-iteration-count: infinite;
+                animation-iteration-count: infinite; */
+                animation: rajath 10s ease-in-out infinite;
             }
             @keyframes rajath {
                 from{
-                    background-color: rgb(114, 79, 79);
+                    background-image: url(https://cdn.pixabay.com/photo/2024/01/02/14/58/leaf-8483401_640.jpg);
+                    background-position: top;
                     color: black;
                 }
                 to{
-                    background-color: rgb(4, 45, 0);
+                    background-image: url(https://cdn.pixabay.com/photo/2024/01/02/14/58/leaf-8483401_640.jpg);
+                    background-position: bottom;
                     color: red;
                 }
             }
