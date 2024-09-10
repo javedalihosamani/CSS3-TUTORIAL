@@ -1,0 +1,45 @@
+/* MOBILE */
+@media (max-width:767px) {
+    header{
+        background-color:skyblue;
+        padding: 20px;
+    }
+    header>nav>ul{
+        float: none;
+    }
+    header>nav>ul>li{
+        display: block;
+    }
+    header>nav{
+        text-align: center;
+    }
+    .commonBanner{
+        overflow: hidden;
+    }
+    .banner1{
+        background-color: gray;
+    }
+    .banner2{
+        background-image: url(../images/mobile.jpg);
+    }
+}
+
+/* TABLET */
+@media (min-width:768px) and (max-width:1200px) {
+    header{
+        background-color: teal;
+        padding: 20px;
+    }
+    header>nav>ul{
+        float: none;
+    }
+    header>nav{
+        text-align: center;
+    }
+    .banner1{
+        background-color: skyblue;
+    }
+    .banner2{
+        background-image: url(../images/tab.jpg);
+    }
+}

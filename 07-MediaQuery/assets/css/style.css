@@ -1,0 +1,79 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+/* P2.HTML CODE */
+header{
+    background-color: gray;
+}
+header>nav>ul{
+    list-style:none;
+    float:right;
+}
+header>nav>ul>li{
+    display: inline-block;
+    padding: 20px;
+}
+header>nav>ul>li:hover{
+    background-color: #fff;
+}
+ header>nav>ul>li:hover a{
+    color:gray;
+}
+header>nav>ul>li>a{
+    text-decoration: none;
+    color: white;
+}
+header>nav>img{
+    height: 54px;
+}
+/* P3.HTML CODE */
+.commonBanner{
+    height: 400px;
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+}
+.commonBanner>div{
+    background-color: rgba(0,0,0,0.3);
+    display: inline-block;
+    padding: 30px;
+    line-height: 2;
+    box-shadow: -3px -3px 8px #ccc,3px 3px 8px #ccc;
+    border-radius: 10px;
+    transition: 2s ease-in-out;
+}
+.commonBanner>div:hover{
+    background-color: teal;
+    transform: scale(1.1) rotate(360deg) skew(20deg);
+}
+.banner1{
+    background-color: teal;
+}
+/* P4.HTML CODE */
+.banner2{
+    background-image: url(../images/desktop.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+/* P5.HTML CODE */
+.banner3{
+    background: linear-gradient(orange, white, green);
+    background: linear-gradient(45deg, orange, white, green);
+    background: linear-gradient(to right, orange, white, green);
+}
+/* P6.HTML CODE  */
+.banner4{
+    background: repeating-linear-gradient(45deg, orange, white 20%, green 50%);
+}
+/* P7.HTML CODE  */
+.banner5{
+    background: url(../images/desktop.jpg) no-repeat left, url(../images/tab.jpg) no-repeat right;
+    background-size: 50%;
+}
+/* P8.HTML CODE */
+.banner6{
+    background: linear-gradient( rgba(255, 165, 0, 0.5), rgba(255, 255, 255,0.5), rgba(0, 128, 0,0.5)), url(../images/desktop.jpg) no-repeat center;
+    background-size: 100%;
+}
