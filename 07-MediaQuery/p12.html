@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>MEDIA QUERY</title>
+        <style>
+            *{padding: 0%;margin: 0%;}
+            .banner10{
+                background-color: gray;
+                padding: 20px;
+                text-align: center;
+                height: 300px;
+            }
+            .banner10>div{
+                background-color: rgba(0, 0, 0, 0.3);
+                padding: 30px;
+                display: inline-block;
+                color: lightgray;
+                box-shadow: -3px -3px 3px #ccc, 3px 3px 3px #ccc;
+                border-radius: 10px;
+            }
+
+            /* 
+                i-phone 4 -> min=320px and max=480px  and pixel-ratio=2
+
+                iphone-6 -> min=375px and max=667px  and pixel-ratio=2
+                iphone 6+,7,7+,8 
+                        -> min=414px and max=736px   and pixel-ratio=3
+                iphone-x -> min=     and max=818px   and pixel-ratio=4
+            */
+            /* MOBILE */
+            @media screen and (min-width:375px) and (max-width:676px){
+                .banner10{
+                    background-color: red;
+                }
+            }
+            @media screen and (min-width:375px) and (max-width:676px) and (orientation:landscape){
+                .banner10{
+                    background-color: green;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <section class="banner10">
+            <div>
+                <h1>CUSTOM DEVICE MEDIA QUERY..!</h1>
+            </div>
+        </section>
+    </body>
+</html>

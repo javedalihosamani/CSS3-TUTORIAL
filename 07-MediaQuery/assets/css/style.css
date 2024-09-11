@@ -77,3 +77,38 @@ header>nav>img{
     background: linear-gradient( rgba(255, 165, 0, 0.5), rgba(255, 255, 255,0.5), rgba(0, 128, 0,0.5)), url(../images/desktop.jpg) no-repeat center;
     background-size: 100%;
 }
+/* P9.HTML CODE */
+/* .banner7{
+    ASSIGNMENT
+} */
+/* P10.HTML CODE */
+.banner8{
+    background: -o-linear-gradient(black, white, green);
+    background: -moz-linear-gradient(red, white, green);
+    background: -webkit-linear-gradient(blue, white, green);
+    background: linear-gradient(orange, white, green);
+}
+/* P11.HTML CODE */
+.banner9{
+    background-color: gray;
+    line-height: 3;
+}
+.common{
+    height: 400px;
+    width: 300px;
+    border: 2px solid #ccc;
+    margin: 30px;
+    padding: 30px;
+}
+.example-1{
+    background: radial-gradient(orange, white, skyblue);
+}
+.example-2{
+    background: radial-gradient(circle, orange, white, skyblue);
+}
+.example-3{
+    background: radial-gradient(circle farthest-side at left bottom, orange, white, skyblue);
+}
+.example-4{
+    background: repeating-radial-gradient(orange, white 10%, green 20%);
+}
